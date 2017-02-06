@@ -35,7 +35,7 @@
 	</bean>
 
 	<bean id="bytetccCompensableLogger" class="org.bytesoft.bytetcc.logging.SampleCompensableLogger" init-method="construct" />
-	<bean id="bytetccResourceDeserializer" class="org.bytesoft.bytetcc.supports.serialize.XAResourceDeserializerImpl" />
+	<bean id="bytetccResourceDeserializer" class="org.bytesoft.bytetcc.supports.dubbo.serialize.XAResourceDeserializerImpl" />
 
 	<bean id="springContainerContext" class="org.bytesoft.bytetcc.supports.spring.SpringContainerContextImpl" />
 
