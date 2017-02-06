@@ -13,8 +13,8 @@
 
 	<description>The bytetcc transaction manager module</description>
 
-	<import resource="classpath:jta-transaction-config.xml" />
-	<import resource="classpath:tcc-transaction-config.xml" />
+	<import resource="classpath:bytetcc-supports-jta.xml" />
+	<import resource="classpath:bytetcc-supports-tcc.xml" />
 
 	<bean id="compensableMethodInterceptor" class="org.bytesoft.bytetcc.supports.spring.CompensableMethodInterceptor" />
 	<aop:config proxy-target-class="true">
